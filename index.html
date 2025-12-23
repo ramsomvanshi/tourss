@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Tours & Travel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .banner {
+            background-image: url('https://via.placeholder.com/1200x500?text=Travel+with+Sai+Tours'); /* Add a travel banner image */
+            background-size: cover;
+            text-align: center;
+            padding: 100px 0;
+            color: white;
+        }
+
+        .banner h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .banner button {
+            background-color: #f4a261;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .banner button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .package, .destination {
+            margin-bottom: 30px;
+        }
+
+        .package h3, .destination h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .package p, .destination p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .package button {
+            background-color: #f4a261;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .destination img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #f4a261;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Sai Tours & Travel</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#tour-packages">Tour Packages</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#vehicles">Vehicles</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="home" class="banner">
+        <h2>Explore the Best Destinations with Sai Tours</h2>
+        <button><a href="#tour-packages">Book Your Tour Now</a></button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sai Tours & Travel! We offer curated travel packages to amazing destinations like Mumbai, Raigad, and Pune. Join us for an unforgettable adventure filled with history, culture, and nature.</p>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section id="tour-packages">
+        <h2>Our Tour Packages</h2>
+        <div class="package">
+            <h3>Mumbai Sightseeing</h3>
+            <p>Explore the iconic landmarks of Mumbai with us. Includes Gateway of India, Marine Drive, and more.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <h3>Raigad Fort Adventure</h3>
+            <p>Hike to the historic Raigad Fort and enjoy stunning views of the Sahyadri range.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <h3>Pune City Tour</h3>
+            <p>Discover the historic sites and natural beauty of Pune, including Shaniwar Wada, Osho Ashram, and Sinhagad Fort.</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <h3>Mumbai</h3>
+            <p>Discover the bustling heart of India. Top attractions include the Gateway of India and Marine Drive.</p>
+            <img src="https://via.placeholder.com/400x300?text=Mumbai+Gateway+of+India" alt="Mumbai Gateway of India">
+        </div>
+        <div class="destination">
+            <h3>Raigad</h3>
+            <p>Step into history at the beautiful Raigad Fort, surrounded by nature and offering breathtaking views.</p>
+            <img src="https://via.placeholder.com/400x300?text=Raigad+Fort" alt="Raigad Fort">
+        </div>
+        <div class="destination">
+            <h3>Pune</h3>
+            <p>Explore Pune’s historic places like Shaniwar Wada, and take in its lush green surroundings.</p>
+            <img src="https://via.placeholder.com/400x300?text=Pune+Shaniwar+Wada" alt="Pune Shaniwar Wada">
+        </div>
+    </section>
+
+    <!-- Vehicles Section -->
+    <section id="vehicles">
+        <h2>Our Vehicles</h2>
+        <div class="vehicle">
+            <h3>Luxury Coach Bus</h3>
+            <p>Comfortable seating for 30-40 people. Ideal for large groups, air-conditioned, with onboard facilities.</p>
+            <img src="https://via.placeholder.com/400x200?text=Luxury+Bus" alt="Luxury Coach Bus">
+        </div>
+        <div class="vehicle">
+            <h3>Minivan</h3>
+            <p>Ideal for small groups of 6-8 people. Spacious and comfortable, perfect for city tours.</p>
+            <img src="https://via.placeholder.com/400x200?text=Minivan" alt="Minivan">
+        </div>
+        <div class="vehicle">
+            <h3>Sedan Car</h3>
+            <p>For personal tours, with 4 seats and a stylish, comfortable interior.</p>
+            <img src="https://via.placeholder.com/400x200?text=Sedan+Car" alt="Sedan Car">
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sai Tours & Travel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
